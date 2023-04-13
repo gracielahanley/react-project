@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.row {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#input-city {
+  padding-right: 0px;
+  margin-left: 5rem;
+  width: 70%;
+  margin-top: 1.5rem;
+}
+
+.input-class {
+  margin-right: 0%;
+}
+
+.card.body {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.button-class {
+  margin-left: 0%;
+}
+#button {
+  padding-left: 1px;
+  margin-left: 0%;
+  margin-right: 3rem;
+  margin-top: 1.5rem;
+  width: 80%;
+  box-shadow: 5px 5px 1px lightgray;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 25px;
+  color: gray;
+  margin-bottom: auto;
+}
+
+.day {
+  text-align: left;
+  color: gray;
+  margin-bottom: auto;
+}
+
+.type {
+  text-align: left;
+  color: gray;
+  margin-bottom: auto;
+}
+
+.insider {
+  margin-top: 0px;
+}
+
+.temp,
+#numberTemp {
+  font-size: 60px;
+  text-align: left;
+  display: inline-flex;
+}
+
+.grades {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 23px;
+}
+
+#data {
+  text-align: left;
+}
+
+#precipitation,
+#humidity,
+#wind {
+  margin-bottom: 0.2rem;
+}
+
+#current {
+  background-color: green;
+}
+
+.foot {
+  font-size: small;
+}
+
+.footer {
+  display: inline;
+  margin-left: 25.5%;
+  border: none;
+
+}
+
+.active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.weather-forecast{
+  text-align: center;
+  margin-top: 0 auto;
+  margin-bottom: 2rem;
+}
+.temp-max, .temp-min{
+  font-size: 15px;
+}
+.temp-min{
+  opacity: 0.7;
 }
